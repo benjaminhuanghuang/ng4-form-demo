@@ -9,3 +9,19 @@
 
   div.form-group>label[for="contactMethod"]+select[id="contactMethod"].form-control
   ```
+
+## Import FormsModule into app.module
+```
+import { FormsModule } from '@angular/forms';
+
+@NgModule({
+  declarations: [
+  ],
+  imports: [
+    BrowserModule, FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```

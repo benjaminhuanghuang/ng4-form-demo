@@ -1,6 +1,18 @@
-## FormGroup and  FormControl
+## FormControl
+  Each of the input in the form need a FormControl
+  - value
+  - touched
+  - untouched
+  - dirty : value is changed
+  - pristine : means the value is not changed
+  - valid
+  - errors
 
-
-
-## Reactive vs Template-driven
-  
+## FormGroup
+  - value
+  - touched
+  - untouched
+  - dirty : value is changed
+  - pristine : means the value is not changed
+  - valid
+  - errors

@@ -1,6 +1,4 @@
-## FormGroup and  FormControl
-
-
-
-## Reactive vs Template-driven
-  
+## Template-driven
+  ```
+  <input ngModel name="firstName" 
+  ```
