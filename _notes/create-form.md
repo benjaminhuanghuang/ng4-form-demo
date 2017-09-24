@@ -1,5 +1,5 @@
 ## Create form component
-  $ ng n c my-form
+  $ ng g c my-form
 
 ## Create input elements in from 
   ```
