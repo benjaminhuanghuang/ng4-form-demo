@@ -4,5 +4,5 @@
 body { padding: 20px}
 
 .form-control.ng-touched.ng-invalid{
-  border:12px solid red; 
+  border:2px dotted red; 
 }
