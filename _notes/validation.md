@@ -35,3 +35,18 @@ Use log(firstName) to show all properties on formControl
   border:12px solid red; 
 }
 ```
+
+## Disable button
+```
+<form #f="ngForm" (ngSubmit)="submit(f)">
+  <button class="btn btn-primary" [disable]="!f.valid">Submit</button>
+</form>
+```
+
+## Diagnostic tool
+```
+<p>
+  {{f.value| json}}
+</p>
+
+```

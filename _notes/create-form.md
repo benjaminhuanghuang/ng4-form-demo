@@ -8,6 +8,8 @@
   div.form-group>label[for='comment']+textarea[id='comment'].form-control
 
   div.form-group>label[for="contactMethod"]+select[id="contactMethod"].form-control
+
+  div.checkbox>label>input[type='checkbox]
   ```
 
 ## Import FormsModule into app.module
