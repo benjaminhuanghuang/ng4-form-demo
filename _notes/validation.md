@@ -48,5 +48,4 @@ Use log(firstName) to show all properties on formControl
 <p>
   {{f.value| json}}
 </p>
-
 ```
