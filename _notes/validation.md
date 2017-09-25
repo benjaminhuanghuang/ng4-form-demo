@@ -49,3 +49,6 @@ Use log(firstName) to show all properties on formControl
   {{f.value| json}}
 </p>
 ```
+
+## Async Validator
+  
